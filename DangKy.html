@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trang Đăng Ký</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <h1>newsG</h1>
+    <body>
+        <div id="register">
+            <h2>Đăng Ký</h2>
+            <form action="DangNhap.html" method="post">
+                <div class="username">
+                    <label>Tên đăng nhập: </label>
+                    <input type="text" name="Username" placeholder="Username " required="" />
+                    <div class="icon">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>    
+                </div>
+                <div class="password">
+                    <label>Mật khẩu: </label>
+                    <input type="password" name="Password" placeholder="Password" required="" />
+                    <div class="icon">
+                        <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="re-password">
+                    <label>Vui lòng nhập lại mật khẩu: </label>
+                    <input type="password" name="Re-Password" placeholder="Re-Password" required="" />
+                    <div class="icon">
+                        <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="email">
+                    <label>E-Mail: </label>
+                    <input type="email" name="E-Mail" placeholder="E-Mail" required="" />
+                    <div class="icon">
+                        <i class="fa fa-gmail" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="agree">
+                    <input type="checkbox" name="Agree" id="Agree">
+                    <label for="Agree">Bạn có đồng ý với các điều khoản?</label>
+                </div> 
+                <div class="clear">
+                    <div class="submit">
+                        <input type="submit" value="Đăng ký">
+                    </div> 
+                </div>   
+                <p class="p-bottom">Bạn đã có tài khoản?<a class href="DangNhap.html"> Quay lại trang đăng nhập</a></p>        
+            </form>
+        </div>
+    </body>
+</html>    
